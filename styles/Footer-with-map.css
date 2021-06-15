@@ -1,0 +1,189 @@
+#myFooter {
+    background-color: #182c39;
+    color: white;
+    padding-top: 20px;
+}
+
+#map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #10222e;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .fa {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-instagram:hover {
+    color: #DD2A7B;
+}
+
+#myFooter .fa-instagram:focus {
+    color: #DD2A7B;
+}
+
+#myFooter .fa-linkedin:hover {
+    color: #2867B2;
+}
+
+#myFooter .fa-instagram:focus {
+    color: #2867B2;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 100px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+
+.person{text-align: center;background: #fff;}
+.person:hover .personimg:before {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+.person p {margin: 0}
+
+.persondetail {position: relative;margin-top: 10px}
+.persondetail:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    top: -24px;
+    left: 0;
+    right: 0;
+    background-color: #FFF;
+    
+}
+.persondetail p.personunvan {font-weight: 600; font-size: 15px;}
+.persondetail p.persontitle {font-size: 13px;margin: 5px 0}
+.personcontact {
+    padding-top: 7px;
+    font-size: 13px;
+}
+.personcontact p.personemail{}
+.personcontact p.persontelefon{padding-top: 7px}
+.personcontact p.personCV {margin-top: 10px}
+.personcontact p.personCV a{
+    width: 100%;
+    background: #f0f0f0;
+    border-radius: 0;
+    border-top: 2px solid #eaeaea;
+    font-size: 13px;
+    font-weight: 600;
+}
+.person:hover .personCV a {
+    background: #be3f48;
+    color: #fff;
+    border-top: 2px solid #902e35;
+    transition: all 0.4s;
+}
+
+@media screen and (max-width: 991.98px) {
+  .mobilmt{margin-top:50px}
+  .persondetail:before {height: 34px;top: -30px}
+}

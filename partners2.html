@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pune Startup Fest</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images\logos\psf_21.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="plugins/googlefonts/icon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      #btnScrollToTop {
+        z-index: 99;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #337ab7;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        color: #ffffff;
+        border: none;
+        outline: none;
+      }
+      .container {
+
+        border-radius: 5px;
+        margin: 30px 100px 30px;
+        padding-top: 30px;
+        
+      }
+      .main-title {
+        color: #0a2642;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+      }
+      .section-title {
+        text-decoration: underline;
+        font-size: 45px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .txt {
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      }
+      .txt:hover {
+        text-decoration: underline;
+      }
+      .col-md-4 {
+        margin-bottom: 35px;
+      }
+      .image img {
+        width: 100%;
+        overflow: hidden;
+      }
+      .card{
+        perspective: 1000px;
+        
+      }
+      .card-front , .card-back {
+        border: black solid 2px;
+      }
+      .card-body .card-title {
+        margin-top: 15px;
+        margin-bottom: 35px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+      }
+      .fa-link {
+        color: white;
+      }
+      .fa-link:hover {
+        color: rgb(92, 128, 228);
+      }
+      .content-link {
+        font-size: 40px;
+        background: #000;
+        padding:20px 20px 20px;
+        transition: 0.3s;
+        border-radius: 50%;
+        border: solid 5px rgb(219, 214, 214);
+
+      }
+      .content-link:hover {
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        box-shadow:  rgb(155, 149, 149);
+
+      }
+      .card-flip > div {
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        transition: transform 0.5s ease;
+        transition-timing-function: linear;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+      }
+
+      .card-front {
+        transform: rotateY(0deg);
+      }
+
+      .card-back {
+        transform: rotateY(180deg);
+        position: absolute;
+        top: 0;
+        background: #0A2642;
+      }
+
+      .card-flip:hover .card-front {
+        transform: rotateY(-180deg);
+      }
+
+      .card-flip:hover .card-back {
+        transform: rotateY(0deg);
+      }
+      .caption {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+      }
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/psf_21.png" />
+    <link rel="stylesheet" href="header_footer_css/bootstrap.min.css" />
+    <link rel="stylesheet" href="header_footer_css/header_footer_style.css" />
+  </head>
+<body>
+
+<div class="super_container">
+    
+	  <button style="margin-right:20px;margin-bottom:25px;" id="btnScrollToTop">
+        <i class="material-icons">keyboard_arrow_up</i>
+      </button>
+	<!-- Header -->
+
+<div style="background-color:#0a2642;">	
+<div class="logo">
+    <a href="index.html">
+        <!-- <span>Pune Startup<span>Fest</span></span>
+        <span>15-16 February 2020</span> -->
+        <img src="images\logos\psf_21.png" width="95px" height="80px">
+    </a>
+
+<div class="cnt__nav">
+  <nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="http://portal-and-resume-ld-998776614.ap-south-1.elb.amazonaws.com/">INTERNSHIP PORTAL</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="partners.html">PREVIOUS PARTNERS</a></li>
+        <li><a href="partners2.html">PRESENT PARTNERS</a></li>
+		<li><a href="expo.html">STARTUP EXPO</a></li>
+		<li><a href="alumni.html">ALUMNI</a></li>
+		<li><a href="events.html">EVENTS</a></li>
+		<li><a href="team.html">TEAM</a></li>
+		<li><a href="contact.php">CONTACT US</a></li>
+				<!--<li><a href="http://psf-loadbalancer-1144597193.ap-south-1.elb.amazonaws.com/portal/login/">INTERNSHIP PORTAL</a></li>-->
+    </ul>
+  </nav>
+</div>
+<!-- NAV TRIGGER -->
+
+<div id="cnt__nav-trigger">
+  <div class="nav-trigger">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+<script src='plugins/js/jquery-2.2.4.min.js'></script><script  src="js/script.js"></script>
+</div>	
+</div>
+      <!-- Our Partners -->
+      <section class="sponsors">
+        <span><h3 class="main-title text-center">Our Partners</h3></span>
+
+        <h3 style="padding-top: 0;" class="section-title">PATRONAGES</h3>
+        <div class="container">
+
+          <div class="row">
+
+           
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/MIC_LOGO.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">MIC</h3>
+                        <a href="https://www.mic.gov.in/" target="_blank"
+                          ><i class="fa fa-link content-link" aria-hidden="true"></i
+                        ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/startupindia.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">STARTUPINDIA</h3>
+                        <a href="https://www.startupindia.gov.in/" target="_blank"
+                          ><i class="fa fa-link content-link" aria-hidden="true"></i
+                        ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/skillindia.png"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">SKILL INDIA</h3>
+                        <a href="https://skillindia.gov.in/" target="_blank"
+                        ><i class="fa fa-link content-link" aria-hidden="true"></i
+                      ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/agnii.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">AGNII</h3>
+                        <a href="https://www.agnii.gov.in/" target="_blank"
+                          ><i class="fa fa-link content-link" aria-hidden="true"></i
+                        ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!--<div class="col-md-4">-->
+                <!--  <div class="card card-flip h-300">-->
+                <!--    <div class="card-front text-black">-->
+                <!--      <div class="image float-center">-->
+                <!--        <img-->
+                <!--          src="SPEAKERS-ASH/startupindia.png"-->
+                <!--          alt=""-->
+                <!--          width="300px"-->
+                <!--          height="300px"-->
+                <!--        />-->
+                <!--      </div>-->
+                <!--    </div>-->
+                <!--    <div class="card-back">-->
+                <!--      <div class="card-body">-->
+                <!--        <center>-->
+                <!--          <h3 class="card-title text-center">STARTUP INDIA</h3>-->
+                <!--          <a href="https://www.startupindia.gov.in/" target="_blank"-->
+                <!--      ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+                <!--    ></a>-->
+                <!--        </center>-->
+                <!--      </div>-->
+                <!--    </div>-->
+                <!--  </div>-->
+                <!--  </div>-->
+          </div>
+
+          </div>
+
+
+
+        <!--<h3 class="section-title">Sponsors</h3>-->
+
+        <!--<div class="container">-->
+
+        <!--  <div class="row">-->
+
+           
+        <!--      <div class="col-md-4">-->
+        <!--        <div class="card card-flip h-300">-->
+        <!--          <div class="card-front text-black">-->
+        <!--            <div class="image float-center">-->
+        <!--              <img-->
+        <!--                src="SPEAKERS-ASH/polycab.png"-->
+        <!--                alt=""-->
+        <!--                width="300px"-->
+        <!--                height="300px"-->
+        <!--              />-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--          <div class="card-back">-->
+        <!--            <div class="card-body">-->
+        <!--              <center>-->
+        <!--                <h3 class="card-title text-center">POLYCAB</h3>-->
+        <!--                <a href="https://polycab.com/" target="_blank"-->
+        <!--                ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+        <!--              ></a>-->
+        <!--              </center>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        <div class="caption text-center">-->
+        <!--          <h3>Title Sponsor</h3>-->
+        <!--        </div>-->
+        <!--      </div>-->
+              
+            
+        <!--      <div class="col-md-4">-->
+        <!--        <div class="card card-flip h-300">-->
+        <!--          <div class="card-front text-black">-->
+        <!--            <div class="image float-center">-->
+        <!--              <img-->
+        <!--                src="SPEAKERS-ASH/BOM.png"-->
+        <!--                alt=""-->
+        <!--                width="300px"-->
+        <!--                height="300px"-->
+        <!--              />-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--          <div class="card-back">-->
+        <!--            <div class="card-body">-->
+        <!--              <center>-->
+        <!--                <h3 class="card-title text-center">BANK OF MAHARASHTRA</h3>-->
+        <!--                <a href="https://www.bankofmaharashtra.in/" target="_blank"-->
+        <!--              ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+        <!--            ></a>-->
+        <!--              </center>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        <div class="caption text-center">-->
+        <!--          <h3>Associate Sponsor</h3>-->
+        <!--        </div>-->
+        <!--      </div>-->
+            
+        <!--      <div class="col-md-4">-->
+        <!--        <div class="card card-flip h-300">-->
+        <!--          <div class="card-front text-black">-->
+        <!--            <div class="image float-center">-->
+        <!--              <img-->
+        <!--                src="SPEAKERS-ASH/FinIQ.png"-->
+        <!--                alt=""-->
+        <!--                width="300px"-->
+        <!--                height="300px"-->
+        <!--              />-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--          <div class="card-back">-->
+        <!--            <div class="card-body">-->
+        <!--              <center>-->
+        <!--                <h3 class="card-title text-center">FINIQ</h3>-->
+        <!--                <a href="https://www.finiq.com/" target="_blank"-->
+        <!--              ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+        <!--            ></a>-->
+        <!--              </center>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        <div class="caption text-center">-->
+        <!--          <h3>Power Sponsor</h3>-->
+        <!--        </div>-->
+        <!--      </div>-->
+
+        <!--      <div class="col-md-4">-->
+        <!--        <div class="card card-flip h-300">-->
+        <!--          <div class="card-front text-black">-->
+        <!--            <div class="image float-center">-->
+        <!--              <img-->
+        <!--                src="SPEAKERS-ASH/ICE.png"-->
+        <!--                alt=""-->
+        <!--                width="300px"-->
+        <!--                height="300px"-->
+        <!--              />-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--          <div class="card-back">-->
+        <!--            <div class="card-body">-->
+        <!--              <center>-->
+        <!--                <h3 class="card-title text-center">ICE</h3>-->
+        <!--                <a href="http://www.indiancablespune.com/" target="_blank"-->
+        <!--              ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+        <!--            ></a>-->
+        <!--              </center>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        <div class="caption text-center">-->
+        <!--          <h3>Chief Sponsor</h3>-->
+        <!--        </div>-->
+        <!--      </div>-->
+
+        <!--      <div class="col-md-4">-->
+        <!--        <div class="card card-flip h-300">-->
+        <!--          <div class="card-front text-black">-->
+        <!--            <div class="image float-center">-->
+        <!--              <img-->
+        <!--                src="SPEAKERS-ASH/ongc.png"-->
+        <!--                alt=""-->
+        <!--                width="300px"-->
+        <!--                height="300px"-->
+        <!--              />-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--          <div class="card-back">-->
+        <!--            <div class="card-body">-->
+        <!--              <center>-->
+        <!--                <h3 class="card-title text-center">MIC</h3>-->
+        <!--                <a href="https://www.ongcindia.com/" target="_blank"-->
+        <!--              ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+        <!--            ></a>-->
+        <!--              </center>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        <div class="caption text-center">-->
+        <!--          <h3>Health & Lifestyle Sponsor</h3>-->
+        <!--        </div>-->
+        <!--      </div>-->
+
+        <!--      <div class="col-md-4">-->
+        <!--        <div class="card card-flip h-300">-->
+        <!--          <div class="card-front text-black">-->
+        <!--            <div class="image float-center">-->
+        <!--              <img-->
+        <!--                src="SPEAKERS-ASH/soul.png"-->
+        <!--                alt=""-->
+        <!--                width="300px"-->
+        <!--                height="300px"-->
+        <!--              />-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--          <div class="card-back">-->
+        <!--            <div class="card-body">-->
+        <!--              <center>-->
+        <!--                <h3 class="card-title text-center">SOUL</h3>-->
+        <!--                <a href="https://www.google.com/" target="_blank"-->
+        <!--                ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+        <!--              ></a>-->
+        <!--              </center>-->
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        <div class="caption text-center">-->
+        <!--          <h3>Agricultural Zone Sponsor</h3>-->
+        <!--        </div>-->
+        <!--      </div>-->
+
+        <!--  </div> -->
+        <!--  </div>-->
+
+        <h3 class="section-title">PARTNERS</h3>
+        <div class="container">
+
+          <div class="row">
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/sakal.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">SAKAL</h3>
+                        <a href="https://www.esakal.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Newspaper Partner</h3>
+                </div>
+              </div>
+           
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/aws.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">AWS</h3>
+                        <a href="https://aws.amazon.com/activate/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Web Services Partner</h3>
+                </div>
+              </div>
+              
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/boompanda.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">BOOMPANDA</h3>
+                        <a href="http://www.boompanda.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Youth Partner</h3>
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/Qfuss.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">QFUSS</h3>
+                        <a href="https://www.qfuss.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Online Mentoring Partner</h3>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/startupgrind.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">STARTUPGRIND</h3>
+                        <a href="https://www.startupgrind.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Outreach Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/aic.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">AIC-PINNACLE</h3>
+                        <a href="https://www.aic-pinnacle.org/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Outreach Partner</h3>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/puntastik.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">PUNTASTIK</h3>
+                        <a href="https://www.puntastik.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Merchandise Partner</h3>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/royaloom.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">ROYALOOM</h3>
+                        <a href="http://royaloom.com/" target="_blank"
+                          ><i class="fa fa-link content-link" aria-hidden="true"></i
+                        ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Gifting Partner</h3>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/repos.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">REPOS ENERGY</h3>
+                        <a href="https://reposenergy.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Energy Partner</h3>
+                </div>
+              </div>
+              
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/pocc.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">PUNE OPEN COFFEE CLUB</h3>
+                        <a href="https://www.linkedin.com/company/pune-opencoffee-club/" target="_blank"
+                        ><i class="fa fa-link content-link" aria-hidden="true"></i
+                      ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Ecosystem Partner</h3>
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                        src="SPEAKERS-ASH/sb.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">SB TOURS & TRAVELS</h3>
+                        <a href="https://www.linkedin.com/company/sb-tours-travels-india/?originalSubdomain=in" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Travel Partner</h3>
+                </div>
+              </div>
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/tukaiexotics.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">TUKAI EXOTICS</h3>-->
+              <!--          <a-->
+              <!--    href="https://www.indiaplants.com/tukai-exotics.php"-->
+              <!--    target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Eco-Gifting Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/budhani.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">BUDHANI BROS</h3>-->
+              <!--          <a href="https://www.budhanibros.com/" target="_blank"-->
+              <!--          ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--        ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Wafer Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/flameuniversity.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">FLAME UNIVERSITY</h3>-->
+              <!--          <a href="https://www.flame.edu.in/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Education Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/wildcraft.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">WILDCRAFT</h3>-->
+              <!--          <a href="https://wildcraft.com/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Merchandise Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/foster's.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">FOSTER'S</h3>-->
+              <!--          <a href="https://www.google.com/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Water Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/lkd.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">LKD</h3>-->
+              <!--          <a href="https://www.google.com/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Dessert Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/grinders&cravers.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">GRINDERS AND CRAVERS</h3>-->
+              <!--          <a href="https://www.google.com/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Sandwich Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--          src="SPEAKERS-ASH/99pancakes.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">99PANCAKES</h3>-->
+              <!--          <a href="http://www.99pancakes.in/" target="_blank"-->
+              <!--          ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--        ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Pancake Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/gathrr.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">GATHRR</h3>-->
+              <!--          <a href="http://www.gathrr.in/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Event-Technology Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/alan'scafe.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">ALAN'S CAFE</h3>-->
+              <!--          <a-->
+              <!--    href="https://alanscafeaddmaaddb.buisness.site/"-->
+              <!--    target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Networking Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/wework.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">WEWORK</h3>-->
+              <!--          <a href="https://www.wework.com/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Co-working Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/pma.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">PUNE MANAGEMENT ASSOCIATION</h3>
+                        <a href="https://www.punemanagement.org.in/" target="_blank"
+                          ><i class="fa fa-link content-link" aria-hidden="true"></i
+                        ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Outreach Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/tie.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">TIE</h3>
+                        <a href="https://www.tiepune.org/" target="_blank"
+                          ><i class="fa fa-link content-link" aria-hidden="true"></i
+                        ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Outreach Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/iyedo.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">IYEDO</h3>
+                        <a href="http://iyedo.co/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Outreach Partner</h3>
+                </div>
+              </div>
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/PMC.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">PUNE MUNICIPAL CORPORATION</h3>-->
+              <!--          <a href="https://pmc.gov.in/en" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Outreach Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/STARTUPGRIND.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">STARTUP GRIND</h3>-->
+              <!--          <a href="https://www.startupgrind.com/pune/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Outreach Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/ht.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">HINDUSTAN TIMES</h3>-->
+              <!--          <a href="https://www.hindustantimes.com/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Newspaper Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/bigfm.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">BIG FM</h3>
+                        <a href="https://www.bigfmindia.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Radio Partner</h3>
+                </div>
+              </div>
+              
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/msins.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">MAHARASHTRA STATE INNOVATION SOCIETY</h3>
+                        <a href="https://www.msins.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Knowledge Partner</h3>
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/wadhwani.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">WADHWANI FOUNDATION</h3>
+                        <a href="https://www.wfglobal.org/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Community Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/toastmasters.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">TOASTMASTERS</h3>
+                        <a
+                  href="https://www.toastmasters.org/Find-a-Club/01141787-toastmasters-club-of-pune"
+                  target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Community Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/ignite.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">IGNITE</h3>
+                        <a href="https://www.linkedin.com/company/iicws/?originalSubdomain=in" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Community Partner</h3>
+                </div>
+              </div>
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/navayuvak.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">NAVAYUVAK</h3>-->
+              <!--          <a href="https://navayuvak.org/" target="_blank"-->
+              <!--          ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--        ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Ecosystem Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/IOTIOT.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">IOTIOT</h3>-->
+              <!--          <a href="http://iotiot.in/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Ecosystem Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/Nasscom.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">NASSCOM</h3>-->
+              <!--          <a href="https://www.nasscom.in/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Ecosystem Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/phicommerce.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">PAYPHI PHICOMMERCE</h3>
+                        <a href="http://www.payphi.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Fintech Partners</h3>
+                </div>
+              </div>
+              
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/grabon.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">GRABON</h3>
+                        <a href="https://www.grabon.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Official Savings Partner</h3>
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/venturewolf.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">VENTURE WOLF</h3>
+                        <a href="http://venturewolf.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Investment Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/funkyturtle.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">FUNKY TURTLE</h3>
+                        <a href="https://funkyturtle.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Coupons Partner</h3>
+                </div>
+              </div>
+            
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/yellowdot.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">YELLOW DOT</h3>
+                        <a href="https://yellowdotstore.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Store Shopping Partner</h3>
+                </div>
+              </div>
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/STARTUP NEWS.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">STARTUP NEWS</h3>-->
+              <!--          <a href="https://www.startupnews.fyi/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Strategic Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/ED.jpg"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">ED TIMES</h3>-->
+              <!--          <a href="https://www.edtimes.in/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Blogging Partner</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/Lokmat.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">LOKMAT</h3>-->
+              <!--          <a href="https://www.lokmat.com/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Media Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/sakaltimes.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">SAKAL TIMES</h3>-->
+              <!--          <a href="https://www.sakaltimes.com/home" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Media Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+              
+            
+              <!--<div class="col-md-4">-->
+              <!--  <div class="card card-flip h-300">-->
+              <!--    <div class="card-front text-black">-->
+              <!--      <div class="image float-center">-->
+              <!--        <img-->
+              <!--        src="SPEAKERS-ASH/sjain.png"-->
+              <!--          alt=""-->
+              <!--          width="300px"-->
+              <!--          height="300px"-->
+              <!--        />-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--    <div class="card-back">-->
+              <!--      <div class="card-body">-->
+              <!--        <center>-->
+              <!--          <h3 class="card-title text-center">S JAIN</h3>-->
+              <!--          <a href="https://sjain.io/" target="_blank"-->
+              <!--    ><i class="fa fa-link content-link" aria-hidden="true"></i-->
+              <!--  ></a>-->
+              <!--        </center>-->
+              <!--      </div>-->
+              <!--    </div>-->
+              <!--  </div>-->
+              <!--  <div class="caption text-center">-->
+              <!--    <h3>Digital Media Partners</h3>-->
+              <!--  </div>-->
+              <!--</div>-->
+            
+
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/campustimes.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">CAMPUS TIMES PUNE</h3>
+                        <a href="https://www.campustimespune.com/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Online Media Partner</h3>
+                </div>
+              </div>
+              
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/knowafest.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">KNOWAFEST</h3>
+                        <a href="https://www.knowafest.com/college-fests/events" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Online Media Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/duexpress.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">DU EXPRESS</h3>
+                        <a href="https://duexpress.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Online Media Partner</h3>
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/youth.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">YOUTH INCORPORATED</h3>
+                        <a href="https://youthincmag.com/" target="_blank"
+                        ><i class="fa fa-link content-link" aria-hidden="true"></i
+                      ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Youth Media Partner</h3>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="card card-flip h-300">
+                  <div class="card-front text-black">
+                    <div class="image float-center">
+                      <img
+                      src="SPEAKERS-ASH/EDtimes.jpg"
+                        alt=""
+                        width="300px"
+                        height="300px"
+                      />
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <div class="card-body">
+                      <center>
+                        <h3 class="card-title text-center">ED TIMES</h3>
+                        <a href="https://edtimes.in/" target="_blank"
+                  ><i class="fa fa-link content-link" aria-hidden="true"></i
+                ></a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption text-center">
+                  <h3>Blog Partner</h3>
+                </div>
+              </div>
+              
+              
+          </div> 
+          </div>
+        </div>
+        
+        
+
+
+      </section>
+
+<footer id="myFooter">
+  <!-- Here we use the Google Embed API to show Google Maps. -->
+  <!-- In order for this to work in your project you will need to generate a unique API key.  -->   
+  <iframe id="map-container" frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.955745660585!2d73.85451101358116!3d18.530901873697637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c089cc962235%3A0x40aefe804ecad857!2sBHAU%20Institute!5e0!3m2!1sen!2sin!4v1576995111438!5m2!1sen!2sin" >
+  </iframe>
+  
+    <div class="container" style="max-width: 1500px; text-align:center; color: #0a2642;">
+        <div class="row">
+            <div class="mobilmt" style="width: 37.49999%;">
+                <div class="person" style="background-color: #fff; border-radius: 20px;">
+               </div>
+            </div>
+            <div class="col-12 col-md-3 mobilmt">
+                <div class="person" style="background-color: #fff; border-radius: 20px;">
+                <h5 style="color: #0a2642; padding-top: 15px;">Krushna Wath</h5>
+                <ul style="padding-bottom: 15px;">
+                    <li>Secretary, BHAU's E-cell</li>
+                    <!--<li>+91 77760 43286</li>-->
+                    <li>secretary.psf@coep.ac.in</li>
+               </ul>
+               </div>
+            </div>
+            <div class="mobilmt" style="width: 37.49999%;">
+                <div class="person" style="background-color: #fff; border-radius: 20px;">
+               </div>
+            </div>
+        </div>
+    </div>
+    
+  <div class="container" style="max-width: 1500px; text-align:center; color: #0a2642;">
+    <div class="row">
+        <div class="col-12 col-md-3 mobilmt">
+            <div class="person" style="background-color: #fff; border-radius: 20px;">
+                <h5 style="color: #0a2642; padding-top: 15px;">Kartikeya Dubey</h5>
+                <ul style="padding-bottom: 15px;">
+                    <li>Finance & Sponsorship Executive</li>
+                    <!--<li>+91 93597 11665</li>-->
+                    <li>finance.psf@coep.ac.in</li>
+               </ul>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 mobilmt">
+            <div class="person" style="background-color: #fff; border-radius: 20px;">
+                <h5 style="color: #0a2642; padding-top: 15px;">Bhagyesh Sakhala</h5>
+                <ul style="padding-bottom: 15px;">
+                    <li>Finance & Sponsorship Executive</li>
+                    <!--<li>+91 93267 32005</li>-->
+                    <li>finance.psf@coep.ac.in</li>
+               </ul>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 mobilmt">
+            <div class="person" style="background-color: #fff; border-radius: 20px;">
+                <h5 style="color: #0a2642; padding-top: 15px;">Radhika Kandoi</h5>
+                <ul style="padding-bottom: 15px;">
+                    <li>Corporate Outreach Group Executive</li>
+                    <!--<li>+91 88052 74477</li>-->
+                    <li>cog.psf@coep.ac.in</li>
+               </ul>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 mobilmt">
+            <div class="person" style="background-color: #fff; border-radius: 20px;">
+                <h5 style="color: #0a2642; padding-top: 15px;">Kushal Lahoti</h5>
+                <ul style="padding-bottom: 15px;">
+                    <li>Corporate Outreach Group Executive</li>
+                    <!--<li>+91 97675 57456</li>-->
+                    <li>cog.psf@coep.ac.in</li>
+               </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="social-networks">
+        <a href="index.html">
+    		<img src="images\logos\psf_21.png" width="150px" height="126px">
+        </a>
+    </div>
+    <center style="font-size: 17px;">
+      <a href="index.html" style="margin-right: 10px;">Home </a>|
+      <a href="about.html" style="margin-right: 10px; margin-left:10px">About </a>|
+      <a href="contact.php" style="margin-left: 10px;">Contact</a>
+    </center>
+  <div class="social-networks">
+      <a href="https://twitter.com/BEC_COEP" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.facebook.com/bec.coep/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/bec_coep/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/pune-startup-fest-19/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+  </div>
+  <center>
+      <p style="color:#fff;font-size:15px;padding-bottom:20px;">
+            Designed by Viren Patil and the Web Team of E-Cell
+        </p>
+  </center>
+</footer>
+
+<script type="text/javascript">
+    const btnScrollToTop = document.querySelector("#btnScrollToTop");
+    btnScrollToTop.addEventListener("click", function() {
+    //window.scrollTo(0,0);
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    });
+    });  
+</script>
+<script src="plugins/js/jquery.min.js"></script>
+<script src="plugins/js/bootstrap.min.js"></script>
+<script src="test/assets/js/jquery-1.11.1.min.js"></script>
+<script src="test/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="test/assets/js/jquery.backstretch.min.js"></script>
+<script src="test/assets/js/scripts.js"></script>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/about.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>

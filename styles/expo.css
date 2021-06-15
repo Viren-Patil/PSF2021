@@ -1,0 +1,62 @@
+.demo{ background-color: #E8E9EB; }
+.serviceBox{
+    color: #555;
+    background: #fff;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding: 40px 15px 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover{ box-shadow: 0 0 15px #999; }
+.serviceBox:before{
+    content: "";
+    background: linear-gradient(45deg,#139627,#4BB85D,#139627);
+    width: 125%;
+    height: 230px;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    left: -50px;
+    z-index: -1;
+}
+.serviceBox .service-icon{
+    color: #fff;
+    font-size: 75px;
+    line-height: 20px;
+    margin: 0 auto 65px;
+}
+.serviceBox .service-icon i{
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon i{
+    text-shadow: 0 0 5px #fff;
+    transform: rotateX(360deg) rotateY(360deg);
+}
+.serviceBox .title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    transition: all 0.3s;
+}
+.serviceBox:hover .title{ color: #139627; }
+.serviceBox .description{
+    font-size: 15px;
+    line-height: 25px;
+}
+.serviceBox.yellow:before{ background: linear-gradient(45deg,#db9e11,#FEC132,#db9e11); }
+.serviceBox.yellow:hover .title{ color: #db9e11; }
+.serviceBox.red:before{ background: linear-gradient(45deg,#d1082d,#ED2D52,#d1082d); }
+.serviceBox.red:hover .title{ color: #d1082d; }
+.serviceBox.gray:before{ background: linear-gradient(45deg,#343538,#626367,#343538); }
+.serviceBox.gray:hover .title{ color: #343538; }
+.serviceBox.blue:before{ background: linear-gradient(45deg,#343538,#626367,#343538); }
+.serviceBox.blue:hover .title{ color: #0a2642; }
+@media only screen and (max-width:990px){
+    .serviceBox{ margin: 0 0 40px; }
+}

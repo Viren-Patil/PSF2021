@@ -1,0 +1,55 @@
+.btn{
+    color: #7a02fd;
+    font-family: century gothic;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 13px 25px;
+    border: 1px solid #7a02fd;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+}
+.btn:hover{
+    color: #fff;
+    box-shadow: 0 0 20px -5px #0a2642;
+    transform: scale(1.05);
+}
+.btn:after{
+    content: '';
+    background-color: #7a02fd;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    transform: translate(-100%, 0) rotate(10deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+.btn:hover:after{ transform: translate(0) rotate(0); }
+.btn.red{
+    color: #ff3838;
+    border-color: #ff3838;
+}
+.btn.red:after{ background: #ff3838; }
+.btn.red:hover{ color: #fff; }
+.btn.green{
+    color: #26de81;
+    border-color: #26de81;
+}
+.btn.green:after{ background: #26de81; }
+.btn.green:hover{ color: #fff; }
+.btn.blue{
+    color: #0a2642;
+    border-color: #0a2642;
+}
+.btn.blue:after{ background: #0a2642; }
+.btn.blue:hover{ color: #fff; }
+@media only screen and (max-width: 767px){
+    .btn{ margin-bottom: 20px; }
+}
+License Terms
